@@ -8,12 +8,10 @@ Reinforcement learning for self-driving in  a 3D simulation (Created using UNITY
 ###  1. Requirements for the SelfDrive_AI Gym
 ------------
 
-You need Python 3.6 or later to run the simulation. (Note: the current environment is only supported in windows) Also, you can directly interact with the simulation by clicking the exe file and then by using W,A, S and D keys.
+You need Python 3.6 or later to run the simulation. (Note: the current environment is only supported in windows) Also, you can directly interact with the simulation by clicking the exe file and then by using W,A, S and D keys. 
 
+Please follow the two links below to install Unity-Gym and Stable-Baselines. Also, you can train it using your custom reinforcement learning algorithms by following the OpenAI gym structure (https://gym.openai.com/).
 
-The image below illustrates the target goal of the AIcar, where the car needs to explore all the trajectories to find the bridge first.
-
-<img src="https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/goalsample.png"/>
 
 [Install Unity-Gym](https://github.com/Unity-Technologies/ml-agents/tree/main/gym-unity)
 
@@ -22,6 +20,11 @@ The image below illustrates the target goal of the AIcar, where the car needs to
 mlagents can be installed using pip:
 
     $ python3 -m pip install mlagents
+    
+    
+The image below illustrates the target goal of the AIcar, where the car needs to explore all the trajectories to find the bridge first.
+
+<img src="https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/goalsample.png"/>
     
 ### 2. (Training) You can train the environment by using the code below which has OpenAI gym structure. It will save the training results into a log directory which you can view using tensorboard. Feel free to change the parameters inside the code
 
