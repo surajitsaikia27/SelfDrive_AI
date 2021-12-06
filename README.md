@@ -4,8 +4,6 @@ Reinforcement learning for self-driving in  a 3D simulation
 
 <img src="https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/sample2.png"/>
 
-<center>![Glimpse from the simulation environment](https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/cargif.gif)
-
 
 ###  1. Requirements for the SelfDrive_AI Gym
 ------------
@@ -18,6 +16,7 @@ The image below illustrates the target goal of the AIcar, where the car needs to
 <img src="https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/goalsample.png"/>
 
 [Install Unity-Gym](https://github.com/Unity-Technologies/ml-agents/tree/main/gym-unity)
+
 [Install Stable-Baselines3](https://stable-baselines3.readthedocs.io/en/master/guide/install.html)
 
 mlagents can be installed using pip:
@@ -89,10 +88,11 @@ To monitor the training progress using tensorboard you type the following comman
 
     $ tensorboard --logdir "HERE PUT THE PATH TO THE DIRECTORY"
  
- If the training goes well you should be able to see the following graphs using tensorboard
  
- ![Screenshot](tfresults.png)
  
+ 
+ ![Glimpse from the simulation environment](https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/cargif.gif)
+
  
 ### 3. (Testing) The following code can be used to test the trained Humanoid Agent
 ```python
