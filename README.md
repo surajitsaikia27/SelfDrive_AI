@@ -1,17 +1,24 @@
 # SelfDrive_AI
+<img src="https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/sample2.png"/>
+
+
 Reinforcement learning for self-driving in  a 3D simulation
 
 
 
 
-![Glimpse from the simulation environment](https://github.com/surajitsaikia27/Humanoid_Gym/blob/main/humanoid_sample.gif)
+![Glimpse from the simulation environment](https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/cargif.gif)
 
 
 ###  1. Requirements for the SelfDrive_AI Gym
 ------------
 
-You need Python 3.6 or later to run the simulation. (Note: the current environment is only supported in windows) Also, you can directly interact with the simulation by clicking the Humanoid.exe file and then by using W,A and D keys.
+You need Python 3.6 or later to run the simulation. (Note: the current environment is only supported in windows) Also, you can directly interact with the simulation by clicking the exe file and then by using W,A, S and D keys.
 
+
+The image below illustrates the target goal of the AIcar, where the car needs to explore all the trajectories to find the bridge first.
+
+<img src="https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/goalsample.png"/>
 
 [Install Unity-Gym](https://github.com/Unity-Technologies/ml-agents/tree/main/gym-unity)
 [Install Stable-Baselines3](https://stable-baselines3.readthedocs.io/en/master/guide/install.html)
