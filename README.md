@@ -1,13 +1,10 @@
 # SelfDrive_AI
-<img src="https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/sample2.png"/>
-
 
 Reinforcement learning for self-driving in  a 3D simulation
 
+<img src="https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/sample2.png"/>
 
-
-
-![Glimpse from the simulation environment](https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/cargif.gif)
+<center>![Glimpse from the simulation environment](https://github.com/surajitsaikia27/SelfDrive_AI/blob/master/Scenes/cargif.gif)
 
 
 ###  1. Requirements for the SelfDrive_AI Gym
