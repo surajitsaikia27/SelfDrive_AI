@@ -141,6 +141,6 @@ for i in range(1000):
 ```
 
 
+***Note: I am still developing the project by inducing more challenging constraints.
 
-![sample video of AI car](https://github.com/surajitsaikia27/Humanoid_Gym/blob/main/carGym_example.gif)
 
